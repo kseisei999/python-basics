@@ -1,7 +1,19 @@
 # 🐍Python Basics
 Python学習用の基礎構文トレーニングプロジェクトです。各ステップごとに文法を学び、実行結果を記録していきます。
 
-## 1️⃣ STEP1：出力と入力（print / input）
+## STEP 1 概要：Python基礎構文（文法の筋トレ）
+Pythonでプログラムを書けるようになるための「文法の型」を習得する。
+→ このステップを終えると、**小さなアプリ（計算、条件分岐、入力・出力）**を自作できるようになります。
+
+## 📘 学習進捗
+
+- [x] STEP1-01 出力と入力
+- [x] STEP1-02 変数とデータ型
+- [ ] STEP1-03 条件分岐（if文）
+- [ ] STEP1-04 ループ（for / while）
+- [ ] STEP1-05 関数
+
+## 1️⃣ STEP1-01：出力と入力（print / input）
 ### 🖥️コード例
 ```python
 name = input("あなたの名前を教えてください：")
@@ -12,7 +24,33 @@ print("こんにちは、”) + name + "さん！")
 こんにちは、katsuyuki konnoさん
 
 ## 📁フォルダ構成
-```python-basics/
-├── README.md
-└── step1_basics/
-    └── 01_print_input.py
+python-basics/
+├── step1_basics/
+│   ├── 01_print_input.py
+│   ├── 
+└── README.md
+
+## 2️⃣ STEP1-02：変数とデータ型（Variables & Data Types）
+### コード例
+```python
+name = input("あなたの名前は？：")
+age = int(input("あなたの年齢は？："))
+print("こんにちは、"　+ name + "さん。あなたは" + str(age) + "ですね。")
+print("来年は", age + 1, "さいになります！")
+
+## 実行結果
+あなたの名前は？：seisei
+あなたの年齢は？:44
+こんにちはseiseiさん。来年は45ですね。
+
+## 📁フォルダ構成
+python_basics/
+├── step1_basics/
+│   ├── 01_print_input.py
+│   ├── 02_variables.py
+│   └── 
+└── README.md
+
+### 🖥️コード例
+## 🖨️実行結果
+## 📁フォルダ構成
