@@ -9,7 +9,7 @@ Pythonでプログラムを書けるようになるための「文法の型」�
 
 - [x] STEP1-01 出力と入力
 - [x] STEP1-02 変数とデータ型
-- [ ] STEP1-03 条件分岐（if文）
+- [x] STEP1-03 条件分岐（if文）
 - [ ] STEP1-04 ループ（for / while）
 - [ ] STEP1-05 関数
 
@@ -49,6 +49,38 @@ python_basics/
 │   ├── 01_print_input.py
 │   ├── 02_variables.py
 │   └── 
+└── README.md
+
+## 🧩 STEP1-03：条件分岐（if / elif / else）
+### 🖥️コード例：年齢による判定
+```python
+age = int(input("あなたの年齢は？:"))
+if age >= 20:
+    print("成人です。")
+elif age >= 13:
+    print("ティーンエイジャーです。")
+else :
+    print("子どもです。")
+
+コード例②：偶数・奇数の判定
+num = int(input("数字を入力してください："))
+if num % 2 == 0:
+    print("偶数です")
+else :
+    print("奇数です")
+
+## 🖨️実行結果
+あなたの年齢を入力してくd歳。：1
+子どもです。
+数字を入力してください：4828
+偶数です
+
+## 📁フォルダ構成
+python_basics/
+├── step1_basics/
+│   ├── 01_print_input.py
+│   ├── 02_variables.py
+│   └── 03_condition.py
 └── README.md
 
 ### 🖥️コード例
